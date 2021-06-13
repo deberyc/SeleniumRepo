@@ -1,17 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="10658" started-at="2021-06-08T21:53:57 CEST" finished-at="2021-06-08T21:54:08 CEST">
+  <suite name="Default suite" duration-ms="51235" started-at="2021-06-13T20:34:16 CEST" finished-at="2021-06-13T20:35:08 CEST">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="10658" started-at="2021-06-08T21:53:57 CEST" finished-at="2021-06-08T21:54:08 CEST">
-      <class name="test.Proba">
-        <test-method status="PASS" signature="test()[pri:0, instance:test.Proba@76f2b07d]" name="test" duration-ms="10521" started-at="2021-06-08T21:53:57 CEST" finished-at="2021-06-08T21:54:08 CEST">
+    <test name="Default test" duration-ms="51235" started-at="2021-06-13T20:34:16 CEST" finished-at="2021-06-13T20:35:08 CEST">
+      <class name="mystoreTests.MyWishlistsTests">
+        <test-method status="PASS" signature="preSvihTestova()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="preSvihTestova" is-config="true" duration-ms="3255" started-at="2021-06-13T20:34:16 CEST" finished-at="2021-06-13T20:34:20 CEST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test -->
-      </class> <!-- test.Proba -->
+        </test-method> <!-- preSvihTestova -->
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="7446" started-at="2021-06-13T20:34:20 CEST" finished-at="2021-06-13T20:34:27 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSvakogTesta -->
+        <test-method status="PASS" signature="addingWishList()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="addingWishList" duration-ms="8624" started-at="2021-06-13T20:34:27 CEST" finished-at="2021-06-13T20:34:36 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addingWishList -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="1766" started-at="2021-06-13T20:34:36 CEST" finished-at="2021-06-13T20:34:37 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posleSvakogTesta -->
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1587" started-at="2021-06-13T20:34:37 CEST" finished-at="2021-06-13T20:34:39 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSvakogTesta -->
+        <test-method status="PASS" signature="removingWishList()[pri:10, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="removingWishList" duration-ms="8462" started-at="2021-06-13T20:34:39 CEST" finished-at="2021-06-13T20:34:48 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removingWishList -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="2788" started-at="2021-06-13T20:34:48 CEST" finished-at="2021-06-13T20:34:50 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posleSvakogTesta -->
+        <test-method status="PASS" signature="preSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="preSvakogTesta" is-config="true" duration-ms="1359" started-at="2021-06-13T20:34:50 CEST" finished-at="2021-06-13T20:34:52 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- preSvakogTesta -->
+        <test-method status="PASS" signature="multipleWishList()[pri:15, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="multipleWishList" duration-ms="13999" started-at="2021-06-13T20:34:52 CEST" finished-at="2021-06-13T20:35:06 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multipleWishList -->
+        <test-method status="PASS" signature="posleSvakogTesta()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="posleSvakogTesta" is-config="true" duration-ms="1798" started-at="2021-06-13T20:35:06 CEST" finished-at="2021-06-13T20:35:07 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posleSvakogTesta -->
+        <test-method status="PASS" signature="posleSvihTestova()[pri:0, instance:mystoreTests.MyWishlistsTests@fad74ee]" name="posleSvihTestova" is-config="true" duration-ms="104" started-at="2021-06-13T20:35:07 CEST" finished-at="2021-06-13T20:35:08 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- posleSvihTestova -->
+      </class> <!-- mystoreTests.MyWishlistsTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
