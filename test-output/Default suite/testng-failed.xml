@@ -6,7 +6,6 @@
       <class name="mystoreTests.MyStoreAddToCartTests">
         <methods>
           <include name="deletingProductFromCart"/>
-          <include name="addingOneItemToCart"/>
           <include name="addingOneItemToCartWithQuantityIncreasing"/>
           <include name="preSvakogTesta"/>
           <include name="posleSvakogTesta"/>
