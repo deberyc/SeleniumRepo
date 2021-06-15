@@ -5,6 +5,7 @@ import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -14,12 +15,14 @@ import mystorePage.MyStoreLoginPage;
 import mystorePage.MyStoreLogoutPage;
 import mystorePage.MyStoreMainPage;
 import mystorePage.MyStorePerosnalInfoPage;
+import mystorePage.MyStoreShoppingCartSummaryPage;
 import mystorePage.MyWishlistsPage;
 
 public class MystoreBaseTests {
 	
 	
 	WebDriver driver;
+	WebDriverWait wait;
 	
 	MyStoreMainPage myStoreMainPage;
 	MyStoreLoginPage myStoreLoginPage;
@@ -28,6 +31,7 @@ public class MystoreBaseTests {
 	MyAddressPage myAddressPage;
 	MyStorePerosnalInfoPage myStorePerosnalInfoPage;
 	MyWishlistsPage myWishlistsPage;
+	MyStoreShoppingCartSummaryPage myStoreShoppingCartSummaryPage;
 	
 	MystoreExcelReader citacIzExcela; 
 	String homeUrl;
@@ -50,6 +54,7 @@ public class MystoreBaseTests {
 		myAddressPage = new MyAddressPage(driver);
 		myStorePerosnalInfoPage = new MyStorePerosnalInfoPage(driver);
 		myWishlistsPage = new MyWishlistsPage(driver);
+		myStoreShoppingCartSummaryPage = new MyStoreShoppingCartSummaryPage(driver);
 		
 		citacIzExcela =  new MystoreExcelReader("data/MyStore.xlsx"); 
 		homeUrl = "http://automationpractice.com/index.php";
